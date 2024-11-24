@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+  }
+  
+  .social-links a
+  {
+    display: inline-block;
+    width: 44px;
+    height: 50px;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 34px;
+  }
+  .social-links img {
+    width: 50px;
+    
+    cursor: pointer;
+  }
+
+  .social-links a.icon {
+    background: #fff;
+  }
+  
+  .platform-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e30f2fc8;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-btn:hover {
+    background-color: #ff4500;
+  }
+  
